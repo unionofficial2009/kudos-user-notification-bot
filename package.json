@@ -1,0 +1,17 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "Discord Bot for KUDOS guild (Discord User Notifications)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "leeshin",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "snekfetch": "^3.6.4",
+    "superagent": "^3.8.2"
+    
+  }
+}
