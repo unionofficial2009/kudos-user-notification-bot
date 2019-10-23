@@ -1,1 +1,1 @@
-# kudos-user-notification-bot
+# kudos-user-notification
