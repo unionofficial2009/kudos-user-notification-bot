@@ -158,7 +158,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         .catch(console.error)
  
     guildChannels.find('name', 'lumia-saga-headquarters')
-     .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#6636634875935457282>`)
+     .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#636634875935457282>`)
         .then(msg => {
             // do something else if you want
         })
