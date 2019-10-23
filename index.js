@@ -96,7 +96,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     
      let guildChannels = newMember.guild.channels;
      guildChannels.find('name', 'kudos-visiting-area')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Visiting Area** :tada::hugging: ! @Lumia Saga Leader @Lumia Saga ViceLeader @Lumia Saga Elites @KUDOS Human Resources @KUDOS Officers`)
+     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Visiting Area** :tada::hugging: ! <@&636556433848270848> <@&633505803340611594> <@&636556433852334100> <@&633297396897546312> <@633298187695947796>`)
         .then(msg => {
             // do something else if you want
         })
@@ -117,7 +117,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     
      let guildChannels = newMember.guild.channels;
      guildChannels.find('name', 'kudos-visiting-area')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Maple Story Visiting Area** :tada::hugging: ! @Maple Story Leader @Maple Story Vice Leader  @Maple Story Elites @KUDOS Officers @KUDOS Human Resources`)
+     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Visiting Area** :tada::hugging: ! <@&636556433902796810> <@&636557680009543680> <@&636562621814013982> <@&633297396897546312> <@633298187695947796>`)
         .then(msg => {
             // do something else if you want
         })
@@ -138,7 +138,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     
      let guildChannels = newMember.guild.channels;
      guildChannels.find('name', 'lm-visiting-area')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **UNION Laplace M Visiting Area** :tada::hugging: ! <@&532171866832371713> <@&532171016600944640> <@&532170233507741717> <@&431159737162399754> <@&469013270557360129>`)
+     .send(`Hey <@${newMember.user.id}>, Welcome to **UNION Laplace M Visiting Area** :tada::hugging: ! <@&636556433848270848> <@&633505803340611594> <@&636556433852334100> <@&633297396897546312> <@633298187695947796>`)
         .then(msg => {
             // do something else if you want
         })
