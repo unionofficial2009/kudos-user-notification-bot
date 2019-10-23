@@ -47,7 +47,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
      let bicon2 = bot.user.displayAvatarURL;  
      let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
-        .addField("Instructions", "Please proceed to <#636558059052859402> channel in the **KUDOS HEADQUARTERS** discord server. Kindly read and follow the instructions in the <#4636558059052859402> channel to access the channels for specific game.")
+        .addField("Instructions", "Please proceed to <#636558059052859402> channel in the **KUDOS HEADQUARTERS** discord server. Kindly read and follow the instructions in the <#636558059052859402> channel to access the channels for specific game.")
         .addField("Need Help?", "Any problem, please DM ** @KUDOS President @KUDOS Vice President @KUDOS Officers @UNION Human Resources @KUDOS Emissery**.")
         .setColor("#15f153")
         .setTimestamp()
