@@ -191,7 +191,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         .catch(console.error)
     
     guildChannels.find('name', 'maple-story-headquarters')
-     .send(`<@${newMember.user.id}> Discord Attendance is a must, type **&present** here :arrow_right: <#636585772627263508> once a day`)
+     .send(`<@${newMember.user.id}> Discord Attendance is a must, type **%present** here :arrow_right: <#636585772627263508> once a day`)
         .then(msg => {
             // do something else if you want
         })
