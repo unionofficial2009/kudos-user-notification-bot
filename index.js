@@ -37,7 +37,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
      let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#431181931477204992> channel in the **KUDOS HEADQUARTERS** discord server. Kindly read and follow the instructions in the <#431181931477204992> channel to access the channels for specific game.")
-        .addField("Need Help?", "Any problem, please DM **@KUDOS President @KUDOS Vice President @KUDOS Officers @UNION Human Resources @KUDOS Emissery**.")
+        .addField("Need Help?", "Any problem, please DM **@KUDOS President @KUDOS Vice President @KUDOS Officers @KUDOS Human Resources @KUDOS Emissery**.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -48,7 +48,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
      let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#636558059052859402> channel in the **KUDOS HEADQUARTERS** discord server. Kindly read and follow the instructions in the <#636558059052859402> channel to access the channels for specific game.")
-        .addField("Need Help?", "Any problem, please DM ** @KUDOS President @KUDOS Vice President @KUDOS Officers @UNION Human Resources @KUDOS Emissery**.")
+        .addField("Need Help?", "Any problem, please DM ** @KUDOS President @KUDOS Vice President @KUDOS Officers @KUDOS Human Resources @KUDOS Emissery**.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -61,7 +61,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
      let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#636566490023198720> channel in the **KUDOS HEADQUARTERS** discord server. Kindly read and follow the instructions in the <#636566490023198720> channel to access the channels for specific game.")
-        .addField("Need Help?", "Any problem, please DM ** @KUDOS President @KUDOS Vice President @KUDOS Officers @UNION Human Resources @KUDOS Emissery**.")
+        .addField("Need Help?", "Any problem, please DM ** @KUDOS President @KUDOS Vice President @KUDOS Officers @KUDOS Human Resources @KUDOS Emissery**.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -87,7 +87,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#636561405641883648> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636561405641883648>.")
-        .addField("Need Help?", "Any problem, please DM **@Lumia Saga Leader @Lumia Saga ViceLeader @Lumia Saga Elites @KUDOS Human Resources @KUDOS Officers **.")
+        .addField("Need Help?", "Any problem, please DM **@Lumia Saga Leader @Lumia Saga ViceLeader @Lumia Saga Elites @KUDOS Human Resources @KUDOS Officers @KUDOS Emissary **.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -96,7 +96,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     
      let guildChannels = newMember.guild.channels;
      guildChannels.find('name', 'kudos-visiting-area')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Visiting Area** :tada::hugging: ! <@&636556433848270848> <@&633505803340611594> <@&636556433852334100> <@&633297396897546312> <@633298187695947796>`)
+     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Visiting Area** :tada::hugging: ! <@&636556433848270848> <@&633505803340611594> <@&636556433852334100> <@&633297396897546312> <@&633298187695947796> <@&636571445765472276>`)
         .then(msg => {
             // do something else if you want
         })
@@ -108,7 +108,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#636561405641883648> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636561405641883648>.")
-        .addField("Need Help?", "Any problem, please DM **@Maple Story Leader @Maple Story Vice Leader  @Maple Story Elites @KUDOS Officers @KUDOS Human Resources **.")
+        .addField("Need Help?", "Any problem, please DM **@Maple Story Leader @Maple Story ViceLeader  @Maple Story Elites @KUDOS Officers @KUDOS Human Resources @KUDOS Emissary **.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -117,7 +117,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     
      let guildChannels = newMember.guild.channels;
      guildChannels.find('name', 'kudos-visiting-area')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Visiting Area** :tada::hugging: ! <@&636556433902796810> <@&636557680009543680> <@&636562621814013982> <@&633297396897546312> <@633298187695947796>`)
+     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Visiting Area** :tada::hugging: ! <@&636556433902796810> <@&636557680009543680> <@&636562621814013982> <@&633297396897546312> <@&633298187695947796> <@&636571445765472276>`)
         .then(msg => {
             // do something else if you want
         })
@@ -151,12 +151,18 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
      let guildChannels = newMember.guild.channels;
     
      guildChannels.find('name', 'lumia-saga-headquarters')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Lumia Saga Headquarters** :tada::hugging: ! @Lumia Saga Member `)
+     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Lumia Saga Headquarters** :tada::hugging: ! <@&633505803331960862> `)
         .then(msg => {
             // do something else if you want
         })
         .catch(console.error)
-
+ 
+    guildChannels.find('name', 'lumia-saga-headquarters')
+     .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#6636634875935457282>`)
+        .then(msg => {
+            // do something else if you want
+        })
+        .catch(console.error)
  
     guildChannels.find('name', 'lumia-saga-headquarters')
      .send(`<@${newMember.user.id}> Discord Attendance is a must, type **!present** here :arrow_right: <#636580983860232202> once a day`)
@@ -171,7 +177,14 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
      let guildChannels = newMember.guild.channels;
     
      guildChannels.find('name', 'maple-story-headquarters')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Maple Story Headquarters** :tada::hugging: ! @Maple Story Member `)
+     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Maple Story Headquarters** :tada::hugging: ! <@&636562622208147461> `)
+        .then(msg => {
+            // do something else if you want
+        })
+        .catch(console.error)
+    
+     guildChannels.find('name', 'maple-story-headquarters')
+     .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#636634620787425291>`)
         .then(msg => {
             // do something else if you want
         })
