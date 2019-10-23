@@ -86,7 +86,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     let bicon2 = bot.user.displayAvatarURL;  
     let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
-        .addField("Instructions", "Please proceed to <#636558059052859402> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636558059052859402>.")
+        .addField("Instructions", "Please proceed to <#636561405641883648> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636561405641883648>.")
         .addField("Need Help?", "Any problem, please DM **@Lumia Saga Leader @Lumia Saga ViceLeader @Lumia Saga Elites @KUDOS Human Resources @KUDOS Officers **.")
         .setColor("#15f153")
         .setTimestamp()
@@ -107,7 +107,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     let bicon2 = bot.user.displayAvatarURL;  
     let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
-        .addField("Instructions", "Please proceed to <#636566490023198720> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636566490023198720>.")
+        .addField("Instructions", "Please proceed to <#636561405641883648> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636561405641883648>.")
         .addField("Need Help?", "Any problem, please DM **@Maple Story Leader @Maple Story Vice Leader  @Maple Story Elites @KUDOS Officers @KUDOS Human Resources **.")
         .setColor("#15f153")
         .setTimestamp()
