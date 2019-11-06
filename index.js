@@ -55,7 +55,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
    
     newMember.send(botembed);
     
- } else if(newaddedrole=="Maple Story Player"){
+ } else if(newaddedrole=="Mabinogi Player"){
     
      let bicon2 = bot.user.displayAvatarURL;  
      let botembed = new Discord.RichEmbed()
@@ -102,13 +102,13 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         })
         .catch(console.error)   
    
-} else if(newaddedrole=="Maple Story Visitor"){
+} else if(newaddedrole=="Mabinogi Visitor"){
     
     let bicon2 = bot.user.displayAvatarURL;  
     let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#636561405641883648> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636561405641883648>.")
-        .addField("Need Help?", "Any problem, please DM **@Maple Story Leader @Maple Story ViceLeader  @Maple Story Elites @KUDOS Officers @KUDOS Human Resources @KUDOS Emissary **.")
+        .addField("Need Help?", "Any problem, please DM **@Mabinogi Leader @Mabinogi ViceLeader  @Mabinogi Elites @KUDOS Officers @KUDOS Human Resources @KUDOS Emissary **.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -171,26 +171,26 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         })
         .catch(console.error)
  
-  } else if(newaddedrole=="Maple Story Member"){
+  } else if(newaddedrole=="Mabinogi Member"){
     
     
      let guildChannels = newMember.guild.channels;
     
-     guildChannels.find('name', 'maple-story-headquarters')
-     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Maple Story Headquarters** :tada::hugging: ! <@&636562622208147461> `)
+     guildChannels.find('name', 'mabinogi-headquarters')
+     .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Mabinogi Headquarters** :tada::hugging: ! <@&636562622208147461> `)
         .then(msg => {
             // do something else if you want
         })
         .catch(console.error)
     
-     guildChannels.find('name', 'maple-story-headquarters')
+     guildChannels.find('name', 'mabinogi-headquarters')
      .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#636634620787425291>`)
         .then(msg => {
             // do something else if you want
         })
         .catch(console.error)
     
-    guildChannels.find('name', 'maple-story-headquarters')
+    guildChannels.find('name', 'mabinogi-headquarters')
      .send(`<@${newMember.user.id}> Discord Attendance is a must, type **%present** here :arrow_right: <#636585772627263508> once a day`)
         .then(msg => {
             // do something else if you want
