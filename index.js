@@ -43,7 +43,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         .setFooter("KUDOS User Notification BOT",bicon2);
    
    newMember.send(botembed);
-  } else if(newaddedrole=="Lumia Saga Player"){
+  } else if(newaddedrole=="Club Audition Mobile Player"){
      let bicon2 = bot.user.displayAvatarURL;  
      let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
@@ -59,7 +59,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
     
      let bicon2 = bot.user.displayAvatarURL;  
      let botembed = new Discord.RichEmbed()
-        .setDescription("Hello maam/sir welcome to KUDOS Community.")
+        .setDescription("Hello maam/sir welcome to KUDOS Community.") 
         .addField("Instructions", "Please proceed to <#636566490023198720> channel in the **KUDOS HEADQUARTERS** discord server. Kindly read and follow the instructions in the <#636566490023198720> channel to access the channels for specific game.")
         .addField("Need Help?", "Any problem, please DM ** @KUDOS President @KUDOS Vice President @KUDOS Officers @KUDOS Human Resources @KUDOS Emissery**.")
         .setColor("#15f153")
@@ -81,13 +81,13 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
    
     newMember.send(botembed);   
       
-  } else if(newaddedrole=="Lumia Saga Visitor"){
+  } else if(newaddedrole=="Club Audition Visitor"){
     
     let bicon2 = bot.user.displayAvatarURL;  
     let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#636561405641883648> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636561405641883648>.")
-        .addField("Need Help?", "Any problem, please DM **@Lumia Saga Leader @Lumia Saga ViceLeader @Lumia Saga Elites @KUDOS Human Resources @KUDOS Officers @KUDOS Emissary **.")
+        .addField("Need Help?", "Any problem, please DM **@Club Audition Leader @Club Audition ViceLeader @Club Audition Elites @KUDOS Human Resources @KUDOS Officers @KUDOS Emissary **.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -145,26 +145,26 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         .catch(console.error)  
    
     
-  } else if(newaddedrole=="Lumia Saga Member"){
+  } else if(newaddedrole=="Club Audition Member"){
     
     
      let guildChannels = newMember.guild.channels;
     
-     guildChannels.find('name', 'lumia-saga-headquarters')
+     guildChannels.find('name', 'club-audition-headquarters')
      .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Lumia Saga Headquarters** :tada::hugging: ! <@&633505803331960862> `)
         .then(msg => {
             // do something else if you want
         })
         .catch(console.error)
  
-    guildChannels.find('name', 'lumia-saga-headquarters')
+    guildChannels.find('name', 'club-audition-headquarters')
      .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#636634875935457282>`)
         .then(msg => {
             // do something else if you want
         })
         .catch(console.error)
  
-    guildChannels.find('name', 'lumia-saga-headquarters')
+    guildChannels.find('name', 'club-audition-headquarters')
      .send(`<@${newMember.user.id}> Discord Attendance is a must, type **!present** here :arrow_right: <#636580983860232202> once a day`)
         .then(msg => {
             // do something else if you want
