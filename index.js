@@ -55,7 +55,7 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
    
     newMember.send(botembed);
     
- } else if(newaddedrole=="Mabinogi Player"){
+ } else if(newaddedrole=="Aura Kingdom Player"){
     
      let bicon2 = bot.user.displayAvatarURL;  
      let botembed = new Discord.RichEmbed()
@@ -102,13 +102,13 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         })
         .catch(console.error)   
    
-} else if(newaddedrole=="Mabinogi Visitor"){
+} else if(newaddedrole=="Aura Kingdom Visitor"){
     
     let bicon2 = bot.user.displayAvatarURL;  
     let botembed = new Discord.RichEmbed()
         .setDescription("Hello maam/sir welcome to KUDOS Community.")
         .addField("Instructions", "Please proceed to <#636561405641883648> channel in the **KUDOS HEADQUATERS** discord server. Kindly tag the following : **@KUDOS Officers @KUDOS Human Resources** in the <#636561405641883648>.")
-        .addField("Need Help?", "Any problem, please DM **@Mabinogi Leader @Mabinogi ViceLeader  @Mabinogi Elites @KUDOS Officers @KUDOS Human Resources @KUDOS Emissary **.")
+        .addField("Need Help?", "Any problem, please DM **@Aura Kingdom Leader @Aura Kingdom ViceLeader  @Aura Kingdom Elites @KUDOS Officers @KUDOS Human Resources @KUDOS Emissary **.")
         .setColor("#15f153")
         .setTimestamp()
         .setFooter("KUDOS User Notification BOT",bicon2);
@@ -171,27 +171,27 @@ bot.on('guildMemberUpdate', (oldMember, newMember) => {
         })
         .catch(console.error)
  
-  } else if(newaddedrole=="Mabinogi Member"){
+  } else if(newaddedrole=="Aura Kingdom Member"){
     
     
      let guildChannels = newMember.guild.channels;
     
-     guildChannels.find('name', 'mabinogi-headquarters')
+     guildChannels.find('name', 'aura-kingdom-headquarters')
      .send(`Hey <@${newMember.user.id}>, Welcome to **KUDOS Mabinogi Headquarters** :tada::hugging: ! <@&636562622208147461> `)
         .then(msg => {
             // do something else if you want
         })
         .catch(console.error)
     
-     guildChannels.find('name', 'mabinogi-headquarters')
-     .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#636634620787425291>`)
+     guildChannels.find('name', 'aura-kingdom-headquarters')
+     .send(`<@${newMember.user.id}> put your IGN here :arrow_right: <#699617455584313423>`)
         .then(msg => {
             // do something else if you want
         })
         .catch(console.error)
     
-    guildChannels.find('name', 'mabinogi-headquarters')
-     .send(`<@${newMember.user.id}> Discord Attendance is a must, type **%present** here :arrow_right: <#636585772627263508> once a day`)
+    guildChannels.find('name', 'aura-kingdom-headquarters')
+     .send(`<@${newMember.user.id}> Discord Attendance is a must, type **%present** here :arrow_right: <#689816226796666914> once a day`)
         .then(msg => {
             // do something else if you want
         })
